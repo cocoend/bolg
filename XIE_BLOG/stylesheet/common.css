@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    max-width: 2560px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 20px;
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo_image {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.nav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav a {
+    line-height: 70px;
+    padding: 0 22px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(19, 19, 19, 0.805);
+    color: white;
+    transition: 0.5;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #5dca88;
+    color: white;
+    border-radius: 4px;
+}
