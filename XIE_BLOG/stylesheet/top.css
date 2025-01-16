@@ -31,5 +31,10 @@
     justify-content: center;
     width: 100%;
     overflow-x: auto;
-    padding-bottom: 80px;
+}
+
+.belief-text {
+    display: block;
+    width: 500px;
+    padding: 20px;
 }
